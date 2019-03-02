@@ -3,24 +3,28 @@
  * Student ID: 991487145
  *     SYST10199 - WEB Programming
  */
+package democonstructor;
 
-
+/**
+ *
+ * @author USER
+ */
 public class vicheles {
-    private double gollonsOfGas;
+    private double gass;
     private int mpg;
 
     /**
-     * @return the gollonsOfGas
+     * @return the gass
      */
-    public double getGollonsOfGas() {
-        return gollonsOfGas;
+    public double getGass() {
+        return gass;
     }
 
     /**
-     * @param gollonsOfGas the gollonsOfGas to set
+     * @param gass the gass to set
      */
-    public void setGollonsOfGas(double gollonsOfGas) {
-        this.gollonsOfGas = gollonsOfGas;
+    public void setGass(double gass) {
+        this.gass = gass;
     }
 
     /**
@@ -36,5 +40,4 @@ public class vicheles {
     public void setMpg(int mpg) {
         this.mpg = mpg;
     }
-    
 }
